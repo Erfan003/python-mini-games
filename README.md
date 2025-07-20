@@ -41,17 +41,15 @@ Clone the repo and run the game:
 
 ```bash
 git clone https://github.com/<your-username>/python-mini-games.git
-cd python-mini-games/games/number_guess
-python number_guess.py
+cd python-mini-games/games/<game_name>
+python <game_name>.py
 ```
 
 ---
 
+<!--
 ## 🛠 Requirements
-
-- Python **3.8+** (standard library only — no external dependencies yet).
-
----
+-->
 
 ## 📂 Project Structure
 
@@ -71,50 +69,9 @@ As new games are added, each gets its own folder under `games/`.
 
 ---
 
-## ➕ Adding a New Game
-
-Want to add *Tic Tac Toe*, *Snake*, *Hangman*, or something wild? Awesome! Use this pattern:
-
-```
-python-mini-games/
-└── games/
-    └── new_game_name/
-        ├── new_game_name.py
-        └── README.md   # short description, how to run, future ideas
-```
-
-**Guidelines**
-
-- Use **lower\_snake\_case** for folders & main Python files.
-- Keep games runnable with a simple `python game.py`.
-- Include a short README in the game folder.
-- Avoid heavy dependencies; if needed, update root `requirements.txt`.
-
----
 <!--
-## 🧭 Roadmap
-
-- Have ideas? Open an Issue or start a Discussion.
-
----
-
 ## 🤝 Contributing
-
-Contributions are welcome — from bug fixes to new games!
-
-**Basic flow:**
-
-1. Fork the repo.
-2. Create a branch: `git checkout -b feature/tic-tac-toe`.
-3. Add your game under `games/<game_name>/`.
-4. Commit & push.
-5. Open a Pull Request.
-
-If you're new to GitHub, check the *Getting Started* note below (coming soon).
-
----
  -->
-
 
 ## 🐛 Issues & Feedback
 
