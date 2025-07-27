@@ -1,9 +1,10 @@
-'''
-this is a main program for login and play game
-'''
 
-def auth_flow():
-    pass
+from auth.auth_manager import auth_flow
+
+
+def main():
+    user = auth_flow()
     
+
 if __name__ == "__main__":
-    auth_flow()
+    main()
