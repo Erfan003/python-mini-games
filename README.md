@@ -46,13 +46,10 @@ python <game_name>.py
 ```
 
 ---
+
 <!--
 ## 🛠 Requirements
-
-- Python **3.8+** (standard library only — no external dependencies yet).
-
---- -->
-
+-->
 
 ## 📂 Project Structure
 
@@ -71,30 +68,10 @@ python-mini-games/
 As new games are added, each gets its own folder under `games/`.
 
 ---
+
 <!--
-## 🧭 Roadmap
-
-- Have ideas? Open an Issue or start a Discussion.
-
----
-
 ## 🤝 Contributing
-
-Contributions are welcome — from bug fixes to new games!
-
-**Basic flow:**
-
-1. Fork the repo.
-2. Create a branch: `git checkout -b feature/tic-tac-toe`.
-3. Add your game under `games/<game_name>/`.
-4. Commit & push.
-5. Open a Pull Request.
-
-If you're new to GitHub, check the *Getting Started* note below (coming soon).
-
----
  -->
-
 
 ## 🐛 Issues & Feedback
 
